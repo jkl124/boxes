@@ -114,6 +114,11 @@ height: auto;
   padding:2px;
 }
 
+.mobilep {
+  padding:0px;
+  margin:0px;
+}
+
 .mp {
   padding:5px;
   margin-left:2px;
@@ -135,6 +140,12 @@ height: auto;
   height:50px;
 }
 
+.navbar2 {
+  margin-top:0;
+  background-color:black;
+  height:50px;
+}
+
 .navbarlist {
   margin-left:5px;
  
@@ -144,7 +155,46 @@ height: auto;
   clear:both;
 }
 
+/* mobile menu */
+#main_nav {
+      display: none;
+      position: absolute;
+      top: 45px;
+      right: 5px;
+      background: #e7e7e7;
+      width: 220px;
+      align:right;
+      border: 1px solid #ccc;
+      font-size:16px;
+      box-shadow: rgba(0,0,0,0.498039) 2px 5px 10px 0px;
+    }
 
+.with_nav #main_nav {
+      display: block;
+    }
+
+.access_aid {
+      display: none;
+    }
+
+#access_nav {
+      display: block;
+      position: absolute;
+      top: 2px;
+      right: 0;
+      width: 60px;
+      height: 0;
+      padding-top: 40px;
+      overflow: hidden;
+      background: black 10px 10px / 20px 20px no-repeat;
+      background-image: -webkit-repeating-linear-gradient(black, #ccc 2px, #black 2px, #fff 4px);
+      background-image: repeating-linear-gradient(black, #ccc 2px, #fff 2px, #fff 4px);
+      z-index: 1;
+    }
+
+    .with_nav #access_nav {
+      background-image: linear-gradient(45deg, transparent 13px, #ccc 13px, #ccc 15px, transparent 0), linear-gradient(-45deg, black 13px, #ccc 13px, #ccc 15px, black 0);
+    }
 
 
 @media screen and (max-width:899px) {
@@ -166,8 +216,10 @@ height: auto;
   .mbox4 {
   width:49%;
   height:19%;
-  
   text-align:center;
+}
+.navbar {
+  display:none;
 }
 }
  
@@ -190,5 +242,15 @@ height: auto;
     height: auto;
     float: left;
     margin: 5px;
+  }
+  #main_nav {
+    display:none;
+  }
+  
+  #access_nav {
+    display:none;
+  }
+  .navbar2 {
+    display:none;
   }
 }
