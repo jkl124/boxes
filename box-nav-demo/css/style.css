@@ -1,0 +1,191 @@
+a {
+  color:black;
+  text-decoration:none;
+}
+
+body {
+  font-family: arial, sans-serif;
+  font-size:14px;
+  margin:0;
+}
+
+h1 {
+  text-align:left;
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left:5px;
+}
+
+h4 {
+  margin:5px;
+  text-align:center;
+}
+p {
+  align:left;
+  color:black;
+  padding:5px;
+}
+
+ul {
+  list-style: none;
+  margin:0px;
+}
+
+
+.box {
+  height: auto;
+ background-color:#ebebff;
+  margin: 5px; 
+}
+
+.boxmini {
+  height: auto;
+ background-color:#ffffd8;
+  margin: 5px;
+}
+
+.boxsub {
+  width: 47%;
+  height: auto;
+  display: inline-block;
+ background-color:#ffffd8;
+  margin-left: 5px;
+}
+
+.divsub {
+ 
+  text-align:left;
+  padding:3px;
+  height:auto;
+}
+
+.hsub {
+  font-size:14px;
+  font-weight:100;
+}
+
+.logo {
+  float:left;
+  margin-left:5px;
+  margin-top:4px;
+  color:white;
+}
+
+.mbox {
+  width: 48%;
+  height: auto;
+  margin: 4px; 
+  float:left;
+  display: block;
+}
+
+.mbox2 {
+  width: 48%;
+  height: auto;
+  background-color:rgb(216,255,216);
+  margin-top: 20px; 
+  float:left;
+}
+
+.mbox3 {
+  width: 48%;
+  height: 150px;
+  margin-top: 20px; 
+  float:left;
+}
+
+.mbox4 {
+  width:49%;
+  height:28px;
+  
+  text-align:center;
+  float:left;
+}
+
+.mimg {
+  max-width: 80%; 
+display:block; 
+height: auto;
+  margin-left:auto;
+  margin-right:auto;
+  padding:2px;
+}
+
+.mp {
+  padding:5px;
+  margin-left:2px;
+  text-align:center;
+}
+
+.nav li {
+  color: white;
+  display:inline-block;
+  margin-top:10px;
+  padding:5px;
+  font-weight:300;
+  margin-left:5px;
+}
+
+.navbar {
+  margin-top:0;
+  background-color:black;
+  height:50px;
+}
+
+.navbarlist {
+  margin-left:5px;
+ 
+}
+
+.row {
+  clear:both;
+}
+
+
+
+
+@media screen and (max-width:899px) {
+  .mbox {
+    width:98%;
+    height:auto;
+  }
+  
+  .mbox2 {
+    width:98%;
+    height:auto;
+    margin-top:0px;
+  }
+  
+  .mbox3 {
+    width:98%;
+  }
+  
+  .mbox4 {
+  width:49%;
+  height:19%;
+  
+  text-align:center;
+}
+}
+ 
+
+@media screen and (min-width:900px) {
+  body {
+    margin:0;
+  }
+  
+  .box {
+  width: 31%;
+  height: auto;
+  float:left;
+  
+  margin: 5px;
+  padding:5px;
+}
+  .boxmini {
+    width: 24%;
+    height: auto;
+    float: left;
+    margin: 5px;
+  }
+}
