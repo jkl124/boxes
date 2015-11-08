@@ -31,18 +31,19 @@ ul {
   margin:0px;
 }
 
-
 .box {
   height: auto;
  background-color:#ebebff;
-  margin: 5px; 
+  
 }
 
 .boxmini {
   height: auto;
  background-color:#ffffd8;
-  margin: 5px;
+  
 }
+
+
 
 .boxsub {
   width: 47%;
@@ -213,6 +214,14 @@ height: auto;
 
 
 @media screen and (max-width:899px) {
+  .box {
+  margin: 5px; 
+}
+
+.boxmini {
+  margin: 5px;
+}
+
   .mbox {
     width:98%;
     height:auto;
@@ -245,13 +254,12 @@ height: auto;
   }
   
   .box {
-  width: 31%;
+  width: 32%;
   height: auto;
   float:left;
-  
   margin: 5px;
-  padding:5px;
 }
+
   .boxmini {
     width: 24%;
     height: auto;
