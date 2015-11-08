@@ -151,6 +151,13 @@ height: auto;
  
 }
 
+.rm {
+  height:20px;
+  padding:15px;
+  border:1px #cfcfcf solid;
+  text-align: center;
+}
+
 .row {
   clear:both;
 }
@@ -168,6 +175,14 @@ height: auto;
       font-size:16px;
       box-shadow: rgba(0,0,0,0.498039) 2px 5px 10px 0px;
     }
+
+#main_nav ul {
+  padding:0px;
+}
+
+#main_nav ul li a {
+  margin-top:5px;
+}
 
 .with_nav #main_nav {
       display: block;
@@ -204,7 +219,7 @@ height: auto;
   }
   
   .mbox2 {
-    width:98%;
+    width:100%;
     height:auto;
     margin-top:0px;
   }
